@@ -1,0 +1,6 @@
+{
+  "name": "SmartVerify",
+  "description": "Smart Product Verification & Barcode Scanning app for Smart India Hackathon (SIH) with product verification, scan history, and admin analytics dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

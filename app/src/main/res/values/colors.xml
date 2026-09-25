@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SmartVerify SIH Brand Colors -->
+    <!-- Used for splash screen, notification icons, and non-Compose UI elements -->
+
+    <!-- Primary brand dark green -->
+    <color name="primary">#065F46</color>
+    <color name="primary_dark">#047857</color>
+    <color name="primary_container">#D1FAE5</color>
+
+    <!-- Secondary dark teal -->
+    <color name="secondary">#0F766E</color>
+
+    <!-- Accent emerald -->
+    <color name="accent">#10B981</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="on_background">#0F172A</color>
+
+    <!-- Status colors -->
+    <color name="status_verified">#16A34A</color>
+    <color name="status_warning">#F59E0B</color>
+    <color name="status_invalid">#DC2626</color>
+
+    <!-- Legacy colors (kept for compatibility) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

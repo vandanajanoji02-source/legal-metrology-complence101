@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Scanner Corner Brackets (Top Left, Top Right, Bottom Left, Bottom Right) -->
+    <!-- Top Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,40 L28,30 A4,4 0 0,1 32,26 L42,26" />
+
+    <!-- Top Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M66,26 L76,26 A4,4 0 0,1 80,30 L80,40" />
+
+    <!-- Bottom Left -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M28,68 L28,78 A4,4 0 0,0 32,82 L42,82" />
+
+    <!-- Bottom Right -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M66,82 L76,82 A4,4 0 0,0 80,78 L80,68" />
+
+    <!-- Barcode Vertical Bars -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M34,35 h3 v38 h-3 z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M40,35 h1.5 v38 h-1.5 z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M44,35 h4 v38 h-4 z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M51,35 h2 v38 h-2 z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M56,35 h1.5 v38 h-1.5 z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M60,35 h4 v38 h-4 z" />
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M67,35 h2 v38 h-2 z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M72,35 h2.5 v38 h-2.5 z" />
+
+    <!-- Laser Scan Line -->
+    <path
+        android:strokeColor="#F43F5E"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M25,54 L83,54" />
+
+    <!-- Verification Badge Circle in Center-Bottom -->
+    <path
+        android:fillColor="#10B981"
+        android:pathData="M54,54 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0" />
+
+    <!-- Verification Checkmark in Badge -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,54.5 L52,58.5 L60.5,50" />
+</vector>

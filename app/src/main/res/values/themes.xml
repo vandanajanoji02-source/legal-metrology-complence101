@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        SmartVerify XML Theme
+        This is the View-system theme used before Compose takes over.
+        The app uses Jetpack Compose for all UI — this theme is applied
+        to the Activity window/decor (status bar, navigation bar, etc.)
+    -->
+    <style name="Theme.MyApplication" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- SmartVerify is an alias for Theme.MyApplication — used in Manifest -->
+    <style name="Theme.SmartVerify" parent="Theme.MyApplication" />
+</resources>
